@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRONT END</title>
+    <link rel="stylesheet" href="./test.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="https://frontendsimplified.com/" target="_blank">
+            <img
+            src="./HTML Practice Assets/FES.svg"
+            class="navbar__logo"
+            alt="FES Logo">
+        </a>
+        
+        <ul class="navbar__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+<!-- LANDING SECTION -->
+      <section class="landing__container"> 
+        <div class="landing__text">
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheading">Go from absolute beginner to pro with a simplified process</p>
+            <a href="https://frontendsimplified.com/" target="_blank">
+                <button class="landing__btn">Start Now</button>
+            </a>
+        </div>
+
+        <div class="landing__img">
+            <img src="./HTML Practice Assets/laptop.png" class="landing__img--small" alt="laptop">
+        </div>
+      </section>
+
+<!-- ABOUT SECTION -->
+      <section id="about">
+        <h2>About</h2>
+        <div class="about__description">
+
+                
+                <div class="about__paragraph--wrapper">
+                    <p class="about__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ex
+                        neque maxime ullam autem iste iusto asperiores ducimus quisquam quos?
+                    </p>
+                    <p class="about__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ex
+                        neque maxime ullam autem iste iusto asperiores ducimus quisquam quos?
+                    </p>
+                </div>
+                <figure class="about__img--wrapper">
+                    <img src="./HTML Practice Assets/about.jpg" class="about__img" alt="about image"/>
+                </figure>
+                
+        </div>
+      </section>
+
+<!-- DISCORD SECTION -->
+      <section id="discord">
+        <h2>Discord</h2>
+            <div class="discord__description">
+                <figure class="discord__img--wrapper">
+                    <img src="./HTML Practice Assets/discord.png" class="discord__img" alt="discord image" />
+                </figure>
+                <div class="discord__paragraph--wrapper">
+                    <p class="discord__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ex
+                        neque maxime ullam autem iste iusto asperiores ducimus quisquam quos?
+                    </p>
+                    <p class="discord__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ex
+                        neque maxime ullam autem iste iusto asperiores ducimus quisquam quos?
+                    </p>
+                </div>
+            </div>
+      </section>
+
+<!-- CONTACT SECTION -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <label>Email</label>
+          <input type="email" placeholder="jane@example.com" />
+          <label>Message</label>
+          <textarea type="text" placeholder="Let's connect!"></textarea>
+          <button class="form__btn">Contact Us!</button>
+        </form>
+      </section>
+    </main>
+
+<!-- FOOTER SECTION -->    
+    <footer>
+      <img src="./HTML Practice Assets/FES.svg" class="footer__logo" alt="FES Logo" />
+          <ul class="footer__links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#discord">Discord</a></li>
+              <li><a href="#ontact">Contact</a></li>
+              <li><a href="#courses">Courses</a></li>
+            </ul>
+
+      <p>Copyright Frontend Simplified</p>
+    </footer>
+  </body>
+</html>
