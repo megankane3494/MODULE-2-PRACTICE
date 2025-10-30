@@ -45,6 +45,28 @@ button {
 
 }
 
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.landing__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.landing__img {
+    display: flex;
+    justify-content: flex-end;
+}
+
 a {
     color: black;
     font-size: 24px;
@@ -64,10 +86,6 @@ li {
     padding-left: 16px;
 }
 
-.row {
-    width: 100%;
-    max-width: 1300px;
-}
 
 /* ABOUT SECTION */
 
@@ -92,9 +110,7 @@ h2 {
     
 }
 
-img {
-    width: 100%;
-}
+/* DISCORD SECTION */
 
 .section__description--wrapper {
     width: 60%;
@@ -107,7 +123,7 @@ img {
     margin-bottom: 24px;
 }
 
-/* DISCORD SECTION */
+
 
 #discord {
     padding: 48px 0;
@@ -161,6 +177,7 @@ footer {
 .footer__link {
     padding: 0 16px;
 }
+
 
 @media (728px) {
     
